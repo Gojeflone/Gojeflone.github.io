@@ -1,0 +1,12 @@
+About the Style
+
+So, what kinda theme/style are we going for here? Let's not be afraid to 
+think out of the box.
+Like what kinda vibe, feel do you want the website to have?
+
+Let's get some ideas going on color schemes, designs for whatever we
+can think of and we can create specific CSS styles for those things
+or we can use our basic concepts to start creating larger theme concepts.
+
+We just gotta keep the goal of the site in mind, and make sure the theme is effective
+to not only getting to that goal, but looking fly as hell in the process. 
