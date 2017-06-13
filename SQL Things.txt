@@ -3,5 +3,3 @@ learn it.
 
 Currently I'm using this guide
 https://www.w3schools.com/sql/
-
-And currently I'm using MySQL to acccess SQL stuff
