@@ -3,3 +3,6 @@ learn it.
 
 Currently I'm using this guide
 https://www.w3schools.com/sql/
+
+To manage the Database, I just downloaded 
+Microsoft Server Management SQL Studio Release 17.1

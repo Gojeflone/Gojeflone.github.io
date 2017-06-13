@@ -9,6 +9,9 @@ Like what kinda vibe, feel do you want the website to have?
 	Like I know you mentioned at one point, there is that feeling 
 	of a bar game within Gwent so let's keep that in mind.
 
+	Let's make a cow with a crown on it's head or something the 
+	mascot
+
 Let's get some ideas going on color schemes, designs for whatever we
 can think of and we can create specific CSS styles for those things
 or we can use our basic concepts to start creating larger theme concepts.
