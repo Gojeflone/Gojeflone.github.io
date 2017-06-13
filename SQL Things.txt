@@ -1,0 +1,7 @@
+To effectively use these databases we're using SQL, so we both gotta
+learn it. 
+
+Currently I'm using this guide
+https://www.w3schools.com/sql/
+
+And currently I'm using MySQL to acccess SQL stuff
