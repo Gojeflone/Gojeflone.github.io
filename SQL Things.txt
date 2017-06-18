@@ -1,8 +1,11 @@
 To effectively use these databases we're using SQL, so we both gotta
 learn it. 
 
-Currently I'm using this guide
+Currently I'm using this guide, 
 https://www.w3schools.com/sql/
+
+Doing Exercises from
+http://www.w3resource.com/sql-exercises/sql-retrieve-from-table.php#SQLEDITOR
 
 To manage the Database, I just downloaded 
 Microsoft Server Management SQL Studio Release 17.1
