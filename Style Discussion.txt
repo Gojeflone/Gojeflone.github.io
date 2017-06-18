@@ -23,3 +23,8 @@ COLOR PALETTE:
 gold - #ffbf00
 brown - #2e1915
 teal - #06876a
+
+lighter brown - #60330d
+red - #930e0e
+blue - #174382
+
