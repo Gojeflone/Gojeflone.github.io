@@ -18,3 +18,8 @@ or we can use our basic concepts to start creating larger theme concepts.
 
 We just gotta keep the goal of the site in mind, and make sure the theme is effective
 to not only getting to that goal, but looking fly as hell in the process. 
+
+COLOR PALETTE:
+gold - #ffbf00
+brown - #2e1915
+teal - #06876a
