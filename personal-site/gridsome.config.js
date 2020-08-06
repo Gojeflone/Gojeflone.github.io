@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  siteUrl: 'https://gojeflone.github.io',
+  pathPrefix: '/Gojeflone.github.io',
   plugins: []
 }
