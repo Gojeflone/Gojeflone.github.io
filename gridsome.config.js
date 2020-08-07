@@ -24,6 +24,7 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
+  // This snippet allows for the use of mixins in all vue files
   chainWebpack (config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
@@ -33,10 +34,13 @@ module.exports = {
       addStyleResource(config.module.rule('scss').oneOf(type))
     })
   }, 
- 
-
   siteName: 'Gridsome',
   siteUrl: 'https://gojeflone.github.io',
   pathPrefix: '/Gojeflone.github.io',
-  plugins: []
+  plugins: [],
+  // Icon
+  icon: {
+    favicon: './src/assets/images/favicon_io/favicon-32x32.png',
+    touchicon: './src/assets/images/favicon_io/favicon-32x32.png'
+  },
 }
