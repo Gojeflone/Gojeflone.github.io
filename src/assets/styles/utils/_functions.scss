@@ -1,13 +1,13 @@
+/*
+ * _functions.scss
+ * Created on Fri Aug 07 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
 @function color($key) {
     @return retrieve_from_map($theme-colors, $key);
-}
-
-@function font-weight($key) {
-    // @return retrieve_from_map($font-weight, $key);
-}
-
-@function breakpoint($key) {
-    @return retrieve_from_map($grid-breakpoints, $key);
 }
 
 @function retrieve_from_map($map, $key) {
@@ -18,6 +18,17 @@
         @return $key;
     }
 }
+
+
+/*
+@function font-weight($key) {
+    // @return retrieve_from_map($font-weight, $key);
+}
+
+@function breakpoint($key) {
+    @return retrieve_from_map($grid-breakpoints, $key);
+}
+
 
 @function transform_matrix($directions...) {
     $x: 0;
@@ -34,3 +45,4 @@
     @return ($x, $y);
 }
 
+*/

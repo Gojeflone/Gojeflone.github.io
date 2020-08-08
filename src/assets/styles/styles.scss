@@ -1,19 +1,20 @@
+/*
+ * styles.scss
+ * Created on Fri Aug 07 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
 // Bootstrap imports
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import './utils/_custom-bootstrap.scss';
+@import './utils/custom-bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
 
-body {
-    background-color: #423144;
-    color: #ffdbc5;
-}
+// utils
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/theme';
 
-a {
-    color: #cf1b1b;
 
-    &:hover {
-        color: #cf1b1b;
-        opacity: 0.8;
-    }
-}

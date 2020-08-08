@@ -4,6 +4,14 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+/*
+ * gridsome.config.js
+ * Created on Sat Aug 08 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
 // style-resources-loader code
 const path = require('path')
 

@@ -1,3 +1,11 @@
+/*
+ * gridsome.server.js
+ * Created on Sat Aug 08 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
 // Server API makes it possible to hook into various parts of Gridsome
 // on server-side and add custom data to the GraphQL data layer.
 // Learn more: https://gridsome.org/docs/server-api/

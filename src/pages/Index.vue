@@ -1,3 +1,11 @@
+<!--
+---- Index.vue
+---- Created on Sat Aug 08 2020
+---- by Jeremy Gouveia
+----
+---- Copyright (c) 2020 Kismet Creative LLC
+--->
+
 <template>
   <Layout>
 

@@ -1,3 +1,11 @@
+/*
+ * main.js
+ * Created on Sat Aug 08 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 

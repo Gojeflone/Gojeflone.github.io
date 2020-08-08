@@ -1,0 +1,23 @@
+/*
+ * _theme.scss
+ * Created on Fri Aug 07 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
+body {
+    background-color: color('moodblue');
+    color: color('peachykeen');
+ 
+    a {
+        color: color('redbed');
+    
+        &:hover {
+            color: color('redbed');
+            opacity: $hover-opacity;
+            text-decoration: none;
+        }
+    }
+    
+}

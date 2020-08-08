@@ -1,0 +1,25 @@
+/*
+ * _variables.scss
+ * Created on Fri Aug 07 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
+// Color
+$peachykeen: #ffdbc5;
+$redbed: #cf1b1b;
+$deadred: #900d0d;
+$moodblue: #423144;
+
+$theme-colors: map-merge(
+    (
+        "peachykeen": $peachykeen,
+        "redbed": $redbed,
+        "deadred": $deadred,
+        "moodblue": $moodblue
+    ),
+    $theme-colors
+);
+
+$hover-opacity: 0.8;
