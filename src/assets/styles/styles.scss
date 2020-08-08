@@ -1,7 +1,19 @@
+// Bootstrap imports
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import './utils/custom-bootstrap.scss';
+@import './utils/_custom-bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
-body {
 
+body {
+    background-color: #423144;
+    color: #ffdbc5;
+}
+
+a {
+    color: #cf1b1b;
+
+    &:hover {
+        color: #cf1b1b;
+        opacity: 0.8;
+    }
 }

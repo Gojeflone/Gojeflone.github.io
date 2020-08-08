@@ -1,0 +1,36 @@
+@function color($key) {
+    @return retrieve_from_map($theme-colors, $key);
+}
+
+@function font-weight($key) {
+    // @return retrieve_from_map($font-weight, $key);
+}
+
+@function breakpoint($key) {
+    @return retrieve_from_map($grid-breakpoints, $key);
+}
+
+@function retrieve_from_map($map, $key) {
+    @if map-has-key($map, $key) {
+        @return map-get($map, $key);
+    }
+    @else {
+        @return $key;
+    }
+}
+
+@function transform_matrix($directions...) {
+    $x: 0;
+    $y: 0;
+
+    @each $direction in $directions {
+        @if map-has-key($transforms, $direction) {
+            $coords: map-get($transforms, $direction);
+            $x: $x + nth($coords, 1);
+            $y: $y + nth($coords, 2);
+        }
+    }
+
+    @return ($x, $y);
+}
+

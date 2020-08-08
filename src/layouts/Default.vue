@@ -42,6 +42,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+  display: none;
 }
 
 .nav__link {
