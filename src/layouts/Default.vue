@@ -6,7 +6,7 @@
 ---- Copyright (c) 2020 Kismet Creative LLC
 --->
 
-<template>
+<template> 
   <b-container fluid class="layout">
     <header class="header">
       <strong>
@@ -35,13 +35,6 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
-}
-
-.layout {
-  /* max-width: 760px; */
-  /* margin: 0 auto; */
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
 }
 
 .header {
