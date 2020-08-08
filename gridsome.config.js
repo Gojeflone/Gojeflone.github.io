@@ -34,7 +34,7 @@ module.exports = {
       addStyleResource(config.module.rule('scss').oneOf(type))
     })
   }, 
-  siteName: 'Gridsome',
+  siteName: 'Gojeflone',
   siteUrl: 'https://gojeflone.github.io',
   pathPrefix: '/Gojeflone.github.io',
   plugins: [],

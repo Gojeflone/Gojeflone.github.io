@@ -2,11 +2,16 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 // import styles
-import '~/assets/styles.scss'
+import '~/assets/styles/styles.scss'
 
 export default function (Vue, { router, head, isClient }) {
+  // Install BootstrapVue
+  Vue.use(BootstrapVue)
+  // Optionally install the BootstrapVue icon components plugin
+  Vue.use(IconsPlugin)
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 }
