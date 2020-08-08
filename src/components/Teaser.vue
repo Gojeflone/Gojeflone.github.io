@@ -7,12 +7,16 @@
 --->
 
 <template>
-    <b-row>
-      <b-col cols="12">
-        <g-image src=".././assets/images/teaser/code.jpg" width="100%"></g-image>
-      </b-col> 
+<b-container fluid class="pl-0 pr-0">
+    <b-row no-gutters>
+        <b-col cols="12">        
+            <b-aspect aspect="3:2">
+                <g-image src=".././assets/images/teaser/code.jpg" class="img-fluid"></g-image>
+            </b-aspect> 
+        </b-col> 
 
-    </b-row>    
+        </b-row> 
+    </b-container>       
 </template>
 
 <script>

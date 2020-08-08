@@ -7,7 +7,7 @@
 --->
 
 <template> 
-  <b-container fluid class="layout">
+  <div class="layout">
     <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -18,7 +18,7 @@
       </nav>
     </header>
     <slot/>
-  </b-container>
+  </div>
 </template>
 
 <static-query>
@@ -35,6 +35,14 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+}
+
+
+.layout {
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
 }
 
 .header {
