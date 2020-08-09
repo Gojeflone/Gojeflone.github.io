@@ -16,6 +16,10 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import '~/assets/styles/styles.scss'
 
 export default function (Vue, { router, head, isClient }) {
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap'
+  })
   // Install BootstrapVue
   Vue.use(BootstrapVue)
   // Optionally install the BootstrapVue icon components plugin

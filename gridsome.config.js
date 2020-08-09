@@ -20,19 +20,19 @@ function addStyleResource (rule) {
     .loader('style-resources-loader')
     .options({
       patterns: [
-        path.resolve(__dirname, './src/assets/sass/_globals.sass'),
+        //path.resolve(__dirname, './src/assets/sass/_globals.sass'),
         // or if you use scss
-        path.resolve(__dirname, './src/assets/sass/_globals.scss'),
+        //path.resolve(__dirname, './src/assets/styles/styles.scss'),
         // you can also use a glob if you'd prefer
-        path.resolve(__dirname, './src/assets/sass/*.sass'),
+        //path.resolve(__dirname, './src/assets/sass/*.sass'),
         // or scss
-        path.resolve(__dirname, './src/assets/sass/*.scss'),
+        //path.resolve(__dirname, './src/assets/sass/*.scss'),
       ],
     })
 }
 
 module.exports = {
-  // This snippet allows for the use of mixins in all vue files
+  // This snippet allows for the use of mixins in all vue files 
   chainWebpack (config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']

@@ -6,8 +6,11 @@
  * Copyright (c) 2020 Kismet Creative LLC
 */
 
+// google font 
+@import url(https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap);
+ 
 // Bootstrap imports
-@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap';  
 @import './utils/custom-bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
@@ -15,6 +18,7 @@
 // utils
 @import 'utils/variables';
 @import 'utils/functions';
+@import 'utils/mixins';
 @import 'utils/theme';
 
 

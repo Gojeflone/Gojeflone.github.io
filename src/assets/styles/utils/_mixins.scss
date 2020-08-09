@@ -1,0 +1,9 @@
+@mixin rowdies() {
+    font-family: $rowdies;
+}
+
+@mixin heading-one() {
+    @include rowdies();
+    color: white;
+    font-size: 7.2rem;
+}

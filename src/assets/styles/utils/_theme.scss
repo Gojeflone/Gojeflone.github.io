@@ -19,5 +19,11 @@ body {
             text-decoration: none;
         }
     }
+
+    .heading-one {
+        @include heading-one(); 
+    }
+
+    
     
 }
