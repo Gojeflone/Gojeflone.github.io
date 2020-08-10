@@ -38,12 +38,13 @@
 <script>
 import Teaser from "@/components/Teaser.vue";
 
+
 export default {
   metaInfo: {
     title: 'Home'
   },
   components: {
-    Teaser
+    Teaser,
   },
   data() {
     return {
