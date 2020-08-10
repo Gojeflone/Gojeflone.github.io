@@ -5,6 +5,7 @@
  *
  * Copyright (c) 2020 Kismet Creative LLC
 */
+@include parallax-init;
 
 body {
     background-color: color('moodblue');
@@ -22,6 +23,11 @@ body {
 
     .heading-one {
         @include heading-one(); 
+    }
+
+    .teaser-heading {
+        
+        @include parallax(0.5);
     }
 
     
