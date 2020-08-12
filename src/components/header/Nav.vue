@@ -8,6 +8,7 @@
 
 <template>
 <b-navbar>
+    <b-navbar-brand href="#">NavBar</b-navbar-brand>
     
 </b-navbar>
     
