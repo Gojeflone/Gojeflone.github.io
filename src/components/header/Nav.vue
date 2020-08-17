@@ -7,11 +7,12 @@
 --->
 
 <template>
-<b-navbar>
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
-    
-</b-navbar>
-    
+<div class="nav">
+    <b-navbar>
+        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+        
+    </b-navbar>
+</div>    
 </template>
 
 <script>
@@ -20,6 +21,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped> 
 
 </style>

@@ -1,0 +1,21 @@
+/*
+ * _Default.scss
+ * Created on Sun Aug 16 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
+
+.default {
+
+    .header {
+        background-color: rgba(0, 0, 0, 0.0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-bottom: 20px; */
+        height: 80px;
+        /* display: none; */
+      }
+}

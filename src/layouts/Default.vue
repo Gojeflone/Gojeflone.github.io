@@ -7,7 +7,7 @@
 --->
 
 <template> 
-  <div class="layout">
+  <div class="default layout">
     <header class="header">
       <!-- <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -54,15 +54,6 @@ body {
   margin: 0 auto;
   /* padding-left: 20px; */
   /* padding-right: 20px; */
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-  /* display: none; */
 }
 
 .nav__link {
