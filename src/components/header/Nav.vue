@@ -7,7 +7,7 @@
 --->
 
 <template>
-<div class="nav">
+<div class="nav container-inner">
     <b-navbar>
         <b-navbar-brand href="#">NavBar</b-navbar-brand>
         

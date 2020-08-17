@@ -7,7 +7,7 @@
 --->
 
 <template>
-<div>
+<div class="container-fluid">
     <Nav></Nav>
 </div>    
 </template>
@@ -18,7 +18,12 @@ import Nav from "@/components/header/Nav.vue";
 export default {
     components: {
         Nav
-    }
+    },
+    data() {
+        return {
+
+        }
+    },
 }
 </script>
 

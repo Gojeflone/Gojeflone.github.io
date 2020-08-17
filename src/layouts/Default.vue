@@ -8,7 +8,7 @@
 
 <template> 
   <div class="default layout">
-    <header class="header">
+    <header class="header" v-bind:class="{ 'header-sticky' : isScrolling }">
       <!-- <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
@@ -36,7 +36,30 @@ import Header from "@/components/header/Header.vue";
 export default {
   components: {
     Header,
-  }  
+  },
+  data: function() {
+    return {
+      scrollPosition: null,
+      isScrolling: false
+    }    
+  },
+
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY
+      if (this.scrollPosition > 50) {
+        this.isScrolling = true;
+      } else {
+        this.isScrolling = false;
+      }
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll);
+  },
+  destroy() {
+    window.removeEventListener('scroll', this.updateScroll)
+  }
 }
 </script>
 
