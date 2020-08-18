@@ -17,17 +17,19 @@
         /* margin-bottom: 20px; */
         //height: 80px;
         /* display: none; */
-        position: absolute;
+        // position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         z-index: 2;
         transition: 0.3s ease; 
+        height: $header-height;
         position: fixed;
       }
 
       .header-sticky {
           position: fixed; 
           background-color: color("moodblue");
+          transition: 0.3s ease; 
       }
 }

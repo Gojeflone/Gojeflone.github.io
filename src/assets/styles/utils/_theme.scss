@@ -33,6 +33,10 @@ body {
         @include heading-one(); 
     }
 
+    .page-container {
+        margin-top: $header-height;
+    }
+
     
     
 }

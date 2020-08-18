@@ -1,7 +1,28 @@
-.brand-image {
-    // Resizes brand image on mobile break
-    @include media(lg, "max") {
-        width: 25px;
+/*
+ * _Nav.scss
+ * Created on Mon Aug 17 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
+
+.nav {
+    .brand-image {
+        // Resizes brand image on mobile break
+        @include media(lg, "max") {
+            width: 25px;
+        }
+        
     }
-    
+
+    .nav-item {
+        a {
+            font-size: 1.8rem;
+            //color: color('redbed') !important;
+
+        
+        }
+        
+    }
 }
