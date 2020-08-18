@@ -1,0 +1,38 @@
+/*
+ * _Project.scss
+ * Created on Mon Aug 17 2020
+ * by Jeremy Gouveia
+ *
+ * Copyright (c) 2020 Kismet Creative LLC
+*/
+
+.Projects {
+    
+
+    .projects-heading {
+        margin-bottom: 7rem;
+    }
+
+    .projects-content {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        background-color: white;
+        color: color('deadred');
+        margin-bottom: 10rem;
+
+        .project-image-wrapper {
+            border-radius: 15px;
+            overflow: hidden;
+            background-color: color("moodblue");
+
+            p {
+                color: #fafafa;
+            }
+
+            @include media(lg, "max") {
+                margin-bottom: 5rem;
+            }
+        }
+
+    }
+}
