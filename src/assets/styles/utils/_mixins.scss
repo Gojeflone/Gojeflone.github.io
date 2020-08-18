@@ -7,3 +7,27 @@
     color: white;
     font-size: 7.2rem;
 }
+
+/* Text Mixins */
+@mixin root-font() {
+    font-size: $root-font-size;
+}
+
+/* Media Mixin */
+@mixin media($breakpoint, $comparator: 'min') {
+    $offset: 0px;
+
+    @if $comparator == 'max' {
+        $offset: -1px;
+    }
+
+    @media screen AND ( #{$comparator}-width: #{breakpoint($breakpoint) + $offset} ) {
+        @content;
+    }
+}
+
+@mixin media-between($breakpoint1, $breakpoint2) {
+    @media screen AND ( min-width: #{breakpoint($breakpoint1)} ) AND ( max-width: #{breakpoint($breakpoint2)} ) {
+        @content;
+    }
+}

@@ -10,6 +10,10 @@
     @return retrieve_from_map($theme-colors, $key);
 }
 
+@function breakpoint($key) {
+    @return retrieve_from_map($grid-breakpoints, $key);
+}
+
 @function retrieve_from_map($map, $key) {
     @if map-has-key($map, $key) {
         @return map-get($map, $key);

@@ -15,7 +15,7 @@
                 </b-aspect> 
             </b-col> 
         </b-row>
-        <b-row no-gutters class="teaser-heading-row vh-100 vw-100 text-center position-absolute" align-v="center">
+        <b-row no-gutters class="teaser-heading-row h-100 w-100 text-center position-absolute" align-v="center">
             <b-col>
                 <h1 class="teaser-heading heading-one">{{heading}}</h1>
             </b-col>
