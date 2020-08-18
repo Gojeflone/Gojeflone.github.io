@@ -8,7 +8,7 @@
 
 <template>
 <div class="container-fluid">
-    <Nav></Nav>
+    <Nav :isScrolling="isScrolling"></Nav>
 </div>    
 </template>
 
@@ -18,6 +18,9 @@ import Nav from "@/components/header/Nav.vue";
 export default {
     components: {
         Nav
+    },
+    props: {
+        isScrolling: false
     },
     data() {
         return {
