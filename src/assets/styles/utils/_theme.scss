@@ -13,6 +13,10 @@ html {
 body {    
     background-color: color('moodblue');
     color: color('peachykeen');
+
+    p, h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0;
+    }
  
     a {
         color: color('redbed');
@@ -27,10 +31,16 @@ body {
 
     p {
         font-size: 1.6rem;
+        color: color("deadred"); 
     }
 
     h1 {
         font-size: 7.2rem;
+        margin-bottom: 7rem;
+    }
+
+    h3 {
+        color: color("deadred");
     }
 
     h4 {
@@ -39,8 +49,16 @@ body {
         font-weight: 200;
     }
 
-    h6 {
+    h5 {
+        color: color("deadred");
+        font-size: 2.8rem;
+        font-weight: 200;
+    }
+
+    h6 {        
+        color: color("deadred");
         font-size: 2.4rem;
+        font-weight: 200;
     }
 
     .heading-one {
@@ -52,9 +70,7 @@ body {
         
     }
 
-    p, h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 0;
-    }
+    
 
     
     
