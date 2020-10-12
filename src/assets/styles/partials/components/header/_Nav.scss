@@ -16,6 +16,11 @@
         
     }
 
+    .nav-header {
+        color: $light-redbed;
+
+    }
+
     .nav-item {
         a {
             font-size: 1.8rem;
@@ -25,4 +30,10 @@
         }
         
     }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #ffffff;
+    }
+
+
 }

@@ -15,16 +15,16 @@
         </b-col>
       </b-row>
       <b-row class="about-content pb-4">
-        <b-col cols="12">
+        <b-col cols="12" lg="8" offset-lg="2">
           <div class="section-title mt-4 mb-4">
-            <h4>Polymath Hopeful</h4>
+            <h4 class="blog-heading">Polymath Hopeful</h4>
           </div>          
           <p>I used to read about the famous polymaths: Shen Kuo, Ben Franklin, Da Vinci and plan to join their numbers. By no means do I claim to be there yet,
             but I intend to get there step-by-step.
           </p>
           <br/>
-          <h5 class="mb-4">The Gameplan</h5>
-          <h6 class="mb-3">Step One: Gain experience in the programming industry - IN PROGRESS </h6>
+          <h5 class="blog-heading mb-4">The Gameplan</h5>
+          <h6 class="blog-heading mb-3">Step One: Gain experience in the programming industry</h6>
           <p>This step is well underway. Having completed four years at the University of Delaware and getting my degree in a Bachelor of Science, I was fortunate to
             land a great opportunity at Engine Room Technology. At ER, I have spent my time working on developing and designing architecture for web applications. 
             <br/>
@@ -46,8 +46,8 @@
             what you get is a great opportunity to learn the industry as well as those tangentially related to it through consulting work. I look forward to continuing to spend my time learning more at Engine Room. 
           </p>
         </b-col>
-        <b-col cols="12" class="mt-4">
-          <h6 class="mb-4">Step Two: Start and Build a Company - IN PROGRESS </h6>
+        <b-col cols="12" lg="8" offset-lg="2" class="mt-4">
+          <h6 class="blog-heading mb-4">Step Two: Start and Build a Company</h6>
           <p>I founded Kismet Creative LLC in December of 2019 (which was a really dumb decision because if I had waited a month, I would not have had to pay taxes for my company for that year). Kismet specializes in 
             building brands. Using my programming background, I have been able to use my free time to keep track of new technologies to enable better marketing. I have a penchant for aesthetic and I have to say I have found many lacking. 
             That said, it's not as if I know the bon-a-fide way of establishing a brand but I aim to succeed and to disrupt the norms of what it means to be a company and what it means to have a brand.
@@ -56,8 +56,8 @@
             For the year of 2020, Kismet Creative LLC will continue to build out its customers - currently, we have one - and explore creative projects to get our name out there. We look forward to leading the way on opportunities in the industry, both big and small.  
           </p>
         </b-col>
-        <b-col cols="12" class="mt-4">
-          <h6 class="mb-4">Step Three: Learn to Think - IN PROGRESS </h6>
+        <b-col cols="12" lg="8" offset-lg="2" class="mt-4">
+          <h6 class="blog-heading mb-4">Step Three: Learn to Think</h6>
           <p>
             Suppose one has an assorted collection of rocks, all roughly the same size and the same weight. Suppose one were to skip one of these rocks down a lake. The rock would jump and hop and skip along the surface of the water, sending ripples throughout the lake.
             These rocks are all identical by all relavant metrics yet they all each have their distinguished, unique faces. 
@@ -76,17 +76,17 @@
             If I cannot think, then I cannot aim, I cannot throw, and I will certainly make no ripple. To that end, I am reading a book a month, spending time listening to podcasts, practicing ZaZen Meditation, and journaling. 
           </p>
         </b-col>
-        <b-col cols="12" class="mt-4">
-          <h6 class="mb-4">Step Four: Learn to Speak - IN PROGRESS </h6>
+        <b-col cols="12" lg="8" offset-lg="2" class="mt-4">
+          <h6 class="blog-heading mb-4">Step Four: Learn to Speak - IN PROGRESS </h6>
           <p>
 
           </p>
         </b-col>
-        <b-col cols="12" class="mt-4">
-          <h6 class="mb-4">Step Five: Learn to Listen - IN PROGRESS </h6>
+        <b-col cols="12" lg="8" offset-lg="2" class="mt-4">
+          <h6 class="blog-heading mb-4">Step Five: Learn to Listen</h6>
         </b-col>
-        <b-col cols="12" class="mt-4">
-          <h6 class="mb-4">Step Six: Write a Book </h6>
+        <b-col cols="12" lg="8" offset-lg="2" class="mt-4">
+          <h6 class="blog-heading mb-4">Step Six: Write a Book </h6>
         </b-col>       
       </b-row>
       
@@ -102,3 +102,7 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+
+</style>

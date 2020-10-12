@@ -10,7 +10,19 @@
 <template>
     <Layout>
         <div class="Contact container-fluid page-container">
-            <h1>Contact Me</h1>
+            <b-row>
+                <b-col cols="12">
+                    <h1>Contact Me</h1>
+                </b-col>
+            </b-row>
+
+            <b-row class="contact-content">
+                <b-col cols="12" lg="8" offset-lg="2">
+                    <h4 class="blog-heading">Get in touch</h4>
+                        <b-icon icon="envelope-fill" font-scale="10"></b-icon>
+
+                </b-col>
+            </b-row>
         </div>
     </Layout>    
 </template>

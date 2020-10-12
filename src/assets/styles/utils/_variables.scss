@@ -11,19 +11,23 @@ $root-font-size: 62.5%; /* Base 10 */
 $header-height: 7rem;
 
 /* Colors */
+$black: #000000;
+$white: #ffffff;
 $peachykeen: #ffdbc5;
 $redbed: #cf1b1b;
+$light-redbed: #CF1A1B;
 $deadred: #900d0d;
 $moodblue: #423144;
 
 $theme-colors: map-merge(
-    (
-        "peachykeen": $peachykeen,
-        "redbed": $redbed,
-        "deadred": $deadred,
-        "moodblue": $moodblue
-    ),
-    $theme-colors
+                (
+                        "peachykeen": $peachykeen,
+                        "redbed": $redbed,
+                        "light-redbed": $light-redbed,
+                        "deadred": $deadred,
+                        "moodblue": $moodblue
+                ),
+                $theme-colors
 );
 
 $hover-opacity: 0.8;

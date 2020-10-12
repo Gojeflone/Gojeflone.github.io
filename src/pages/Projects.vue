@@ -15,10 +15,10 @@
             </b-col> 
         </b-row>
         <b-row class="projects-content">
-            <b-col cols="12">
+            <b-col cols="12" lg="8" offset-lg="2">
                 <b-row class="align-items-center">
                     <b-col cols="12" lg="6" order="2" order-lg="1">
-                        <h4>Deep Roots Horticulture</h4>
+                        <h4 class="blog-heading">Deep Roots Horticulture</h4>
                         <h3>Dec 2019 - Present</h3>
                         <br/>
                         <p>
