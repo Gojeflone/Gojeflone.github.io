@@ -19,7 +19,10 @@
             <b-row class="contact-content">
                 <b-col cols="12" lg="8" offset-lg="2">
                     <h4 class="blog-heading">Get in touch</h4>
-                        <b-icon icon="envelope-fill" font-scale="10"></b-icon>
+                    <font-awesome-icon :icon="['fas', 'envelope']" size="6x" class="m-3"/>
+                    <font-awesome-icon :icon="['fab', 'instagram']" size="6x" class="m-3" />
+                    <font-awesome-icon :icon="['fab', 'facebook']" size="6x" class="m-3" />
+
 
                 </b-col>
             </b-row>
