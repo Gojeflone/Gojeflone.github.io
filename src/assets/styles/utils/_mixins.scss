@@ -7,16 +7,6 @@
 */
 
 
-@mixin rowdies() {
-    font-family: $rowdies;
-}
-
-@mixin heading-one() {
-    @include rowdies();
-    color: white;
-    font-size: 7.2rem;
-}
-
 /* Text Mixins */
 @mixin root-font() {
     font-size: $root-font-size;
@@ -38,5 +28,23 @@
 @mixin media-between($breakpoint1, $breakpoint2) {
     @media screen AND ( min-width: #{breakpoint($breakpoint1)} ) AND ( max-width: #{breakpoint($breakpoint2)} ) {
         @content;
+    }
+}
+
+@mixin rowdies() {
+    font-family: $rowdies;
+}
+
+@mixin heading-one() {
+    @include rowdies();
+    color: white;
+    font-size: 7.2rem;
+
+    @include media(lg, "max") {
+        font-size: 5rem;
+    }
+
+    @include media(md, "max") {
+        padding-top: 4rem;
     }
 }

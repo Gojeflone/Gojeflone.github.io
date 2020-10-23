@@ -18,7 +18,7 @@
         </b-col>
         <b-col cols="12" lg="8" offset-lg="2">
 
-          <h4 class="blog-heading mt-5">"Digital Real Estate Agent"</h4>
+          <h4 class="blog-heading mt-5">Redefining the digital landscape</h4>
           <h3 class="blog-heading mt-4">Online properties have never been cheaper</h3>
           <p class="mt-4">
             In this ever-changing digital landscape, there is a market for everyone. If you can envision it, you can
@@ -36,8 +36,9 @@
           <h4 class="blog-heading">Disrupting industry, creating ripples</h4>
           <h3 class="blog-heading">Whether it's revamping a </h3>
           -->
-        </b-col>
+        </b-col> 
       </b-row>
+      
     </div>
 
 

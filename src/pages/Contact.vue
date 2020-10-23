@@ -17,13 +17,16 @@
             </b-row>
 
             <b-row class="contact-content">
-                <b-col cols="12" lg="8" offset-lg="2">
-                    <h4 class="blog-heading">Get in touch</h4>
-                    <font-awesome-icon :icon="['fas', 'envelope']" size="6x" class="m-3"/>
-                    <font-awesome-icon :icon="['fab', 'instagram']" size="6x" class="m-3" />
-                    <font-awesome-icon :icon="['fab', 'facebook']" size="6x" class="m-3" />
-
-
+                <b-col cols="12" lg="8" offset-lg="2" class="d-flex align-items-center justify-content-center">
+                    <a href="mailto:gojeflone@kismetcreative.dev?subject=Reaching%20Out%20To%20Gojeflone%20Concerning" target="_blank">
+                        <font-awesome-icon :icon="['fas', 'envelope']" size="6x" class="m-3"/>
+                    </a>
+                    <a href="https://www.instagram.com/gojeflone/" target="_blank">
+                        <font-awesome-icon :icon="['fab', 'instagram']" size="6x" class="m-3" />
+                    </a>
+                    <a href="https://twitter.com/gojeflone" target="_blank">
+                        <font-awesome-icon :icon="['fab', 'twitter']" size="6x" class="m-3" />
+                    </a>   
                 </b-col>
             </b-row>
         </div>

@@ -36,5 +36,6 @@
 <style lang="scss" scoped>
     h6 {
         font-weight: 600;
+        color: white;
     }
 </style>

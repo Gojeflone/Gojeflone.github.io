@@ -19,6 +19,9 @@
       <Header :isScrolling="isScrolling"></Header> 
     </header>
     <slot/>
+    <footer>
+      <Footer></Footer>
+    </footer>
   </div>
 </template>
 
@@ -32,10 +35,12 @@ query {
 
 <script>
 import Header from "@/components/header/Header.vue";
+import Footer from "@/components/footer/Footer.vue";
 
 export default {
   components: {
     Header,
+    Footer
   },
   data: function() {
     return {

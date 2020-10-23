@@ -18,12 +18,12 @@ import '~/assets/styles/styles.scss'
 // Icons
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope} from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(faEnvelope);
 library.add(faInstagram);
-library.add(faFacebook);
+library.add(faTwitter);
 
 
 export default function (Vue, { router, head, isClient }) {

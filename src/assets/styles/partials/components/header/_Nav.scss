@@ -17,7 +17,7 @@
     }
 
     .nav-header {
-        color: $light-redbed;
+        color: $white;
 
     }
 
@@ -25,6 +25,11 @@
         a {
             font-size: 1.8rem;
             //color: color('redbed') !important;
+
+            @include media(lg, "max") {
+                font-size: 1.2rem;
+
+            }
 
         
         }
